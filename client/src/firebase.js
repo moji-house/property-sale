@@ -8,11 +8,11 @@ import { getAnalytics } from "firebase/analytics";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIRIBASE_API_KEY ,
-  authDomain: "property-sell-401819.firebaseapp.com",
-  projectId: "property-sell-401819",
-  storageBucket: "property-sell-401819.appspot.com",
-  messagingSenderId: "588716927912",
-  appId: "1:588716927912:web:a6d64c89172800b05a4b9d",
+  authDomain: "mern-estate-1965a.firebaseapp.com",
+  projectId: "mern-estate-1965a",
+  storageBucket: "mern-estate-1965a.firebasestorage.app",
+  messagingSenderId: "347021210513",
+  appId: "1:347021210513:web:80c21dddde7dcd60302030",
   measurementId: "G-NQ79YSEFBT"
 };
 
