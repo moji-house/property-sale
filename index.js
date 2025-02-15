@@ -107,7 +107,8 @@ export const io = new Server(expressServer, {
       "https://property-sell-gjz462ec1-emoncr.vercel.app/",
       "http://localhost:3000",
       "https://property-sell.onrender.com",
-      "https://mern-estate-nk8z.onrender.com"
+      "https://mern-estate-nk8z.onrender.com",
+      "https://moji.house",
     ],
     credentials: true,
   },
