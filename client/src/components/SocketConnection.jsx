@@ -9,7 +9,7 @@ import { signal } from "@preact/signals-react"
 
 //production
 // const Node_Env = "local"
-export const socket = io("https://thunder-scarlet-wizard.glitch.me/", {
+export const socket = io("https://mern-estate-nk8z.onrender.com/", {
     headers: {
         "user-agent": "chrome"
     }
