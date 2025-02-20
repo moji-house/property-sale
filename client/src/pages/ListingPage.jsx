@@ -212,13 +212,13 @@ const ListingPage = () => {
                                                 {
                                                     offer ?
                                                         <p className='text-2xl font-heading text-brand-blue mt-5  text-bold'>
-                                                            ${discountPrice} <span>
-                                                                <s className='text-gray-400 text-sm'>${price}</s>
+                                                            {discountPrice} Baht<span>
+                                                                <s className='text-gray-400 text-sm'>{price} Baht</s>
                                                             </span>
                                                         </p>
                                                         :
                                                         <p className='text-2xl font-heading text-brand-blue mt-3  text-bold'>
-                                                            ${price}
+                                                            {price} Baht
                                                         </p>
                                                 }
                                             </div>
@@ -231,10 +231,10 @@ const ListingPage = () => {
                                                 </p>
                                                 <p className='font-heading mt-3 font-medium sm:text-lg  text-sm flex items-center justify-left'>
                                                     <FaBath className='text-brand-blue' />
-                                                    <span className='ml-1'>{bath} Bath</span>
+                                                    <span className='ml-1'>{bath} Baht</span>
                                                 </p>
                                                 <p className='font-heading mt-3 font-medium sm:text-lg text-sm flex items-center justify-left'><BiSolidArea className='text-brand-blue' />
-                                                    <span className='ml-1'>{area} sqft</span>
+                                                    <span className='ml-1'>{area} sq.wah</span>
                                                 </p>
                                             </div>
 
@@ -304,7 +304,7 @@ const ListingPage = () => {
                                                             Area
                                                         </p>
                                                         <p className='font-heading  text-md lg:text-lg '>
-                                                            {area} <span>sqft</span>
+                                                            {area} <span>sq.wah</span>
                                                         </p>
                                                     </div>
                                                     {
@@ -314,8 +314,8 @@ const ListingPage = () => {
                                                                 Price
                                                             </p>
                                                             <p className='font-heading  text-md lg:text-2xl '>
-                                                                ${discountPrice} <span>
-                                                                    <s className='text-gray-400 text-lg'>${price}</s>
+                                                            Baht{discountPrice} <span>
+                                                                    <s className='text-gray-400 text-lg'>Baht{price}</s>
                                                                 </span>
                                                             </p>
                                                         </div>

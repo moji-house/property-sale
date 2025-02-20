@@ -89,15 +89,15 @@ const PostCard = ({ postInfo }) => {
                         <div className="mt-3 flex items-end justify-between">
                             {offer ?
                                 <p className='font-content truncate'>
-                                    <span className="text-2xl font-bold font-content text-brand-blue ">${discountPrice}</span>
+                                    <span className="text-2xl font-bold font-content text-brand-blue ">{discountPrice} Baht</span>
                                     {
                                         type === 'rent' && <span className="text-sm text-slate-700">/m</span>
                                     }
-                                    <s className='font-bold text-sm text-gray-600 ml-2 truncate'>${price}</s>
+                                    <s className='font-bold text-sm text-gray-600 ml-2 truncate'>{price} Baht</s>
                                 </p>
 
                                 : <p className='font-content truncate'>
-                                    <span className="text-2xl font-bold font-content text-brand-blue ">${price}</span>
+                                    <span className="text-2xl font-bold font-content text-brand-blue ">{price} Baht</span>
                                     {
                                         type === 'rent' && <span className="text-sm text-slate-700">/m</span>
                                     }

@@ -113,9 +113,9 @@ const ListingCard = ({ listing }) => {
 
                         <div className="price_container truncate">
                             {offer ?
-                                <p className='text-xl font-content text-brand-blue font-bold  flex items-center justify-start truncate'>${discountPrice} <s className='text-gray-400  text-xs mt-1 ml-1'>${price}</s> </p>
+                                <p className='text-xl font-content text-brand-blue font-bold  flex items-center justify-start truncate'>{discountPrice} Baht<s className='text-gray-400  text-xs mt-1 ml-1'>${price}</s> </p>
 
-                                : <p className='text-xl font-content text-brand-blue font-bold  flex items-center justify-start truncate'>${price}</p>
+                                : <p className='text-xl font-content text-brand-blue font-bold  flex items-center justify-start truncate'>{price} Baht</p>
                             }
                         </div>
                         <div className="footer_btn flex items-center justify-end mr-1">

@@ -216,7 +216,7 @@ const CreatePost = () => {
                                         <div className="property_info mt-3">
                                             <p className='font-heading text-black'>Genarel Information</p>
                                             <div className="max-w-[200px] flex items-center justify-between gap-2 mt-2">
-                                                <span className='label-text font-medium'>Area <small>(sqft)</small></span>
+                                                <span className='label-text font-medium'>Area <small>(sq.wah)</small></span>
                                                 <div>
                                                     <input
                                                         defaultValue={550}
@@ -307,9 +307,9 @@ const CreatePost = () => {
                                         <div className=" mt-1">
                                             <div className="pricing_info flex flex-col">
                                                 <p className="mt-3  font-heading text-black">Regular Price </p>
-                                                <span className='text-sm font-content font-bold text-red-900'>($ /month)</span>
+                                                <span className='text-sm font-content font-bold text-red-900'>(Baht /month)</span>
                                                 <div className="flex flex-row mt-2 ">
-                                                    <span className="flex items-center bg-grey-lighter rounded rounded-r-none px-2 font-bold text-grey-darker text-xl">$</span>
+                                                    <span className="flex items-center bg-grey-lighter rounded rounded-r-none px-2 font-bold text-grey-darker text-xl">Baht</span>
                                                     <input
                                                         id='price'
                                                         type="number"
@@ -325,9 +325,9 @@ const CreatePost = () => {
                                                 isOffer &&
                                                 <div className="pricing_info flex flex-col">
                                                     <p className="mt-3  font-heading text-black">Discount Price </p>
-                                                    <span className='text-sm font-content font-bold text-red-900'>($ /month)</span>
+                                                    <span className='text-sm font-content font-bold text-red-900'>(Baht /month)</span>
                                                     <div className="flex flex-row mt-2 ">
-                                                        <span className="flex items-center bg-grey-lighter rounded rounded-r-none px-2 font-bold text-grey-darker text-xl">$</span>
+                                                        <span className="flex items-center bg-grey-lighter rounded rounded-r-none px-2 font-bold text-grey-darker text-xl">Baht</span>
                                                         <input
                                                             id='discountPrice'
                                                             type="number"

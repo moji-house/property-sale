@@ -22,7 +22,8 @@ function App() {
         <Header />
         {/* <Theme/> */}
         <Routes>
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
+          <Route path='/' element={<Search />} /> 
           <Route path='/home' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/listing/:id' element={<ListingPage />} />
@@ -43,3 +44,4 @@ function App() {
 }
 
 export default App
+
